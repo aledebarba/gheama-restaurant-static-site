@@ -1,6 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import Video from 'react-responsive-video';
+import { configData } from "../data/config";
 
 export const Header = () => <>
     <div className="containerl-fluid">
@@ -8,7 +9,7 @@ export const Header = () => <>
             <BackgroundImage />
             <div className='video-container'>
                 <Video 
-                    mp4={'https://uxdir.com/files/videos/gheama-intro-video.mp4'} 
+                    mp4={configData.videosource} 
                     height={"100vh"}
                     objectFit={"cover"}
                 />        
