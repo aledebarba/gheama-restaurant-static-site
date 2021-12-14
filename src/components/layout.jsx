@@ -1,6 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import '../styles/styles.scss'
 
 const Layout = props => {
     return (

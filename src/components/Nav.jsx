@@ -18,13 +18,13 @@ export const TopNav = () => {
             <StaticImage src="../images/logotype.png" alt='Gheama Logo' />
         </div> 
         <div className='navItems'>
-          <Link to="/soon/">
+          <Link to="/">
             Home
           </Link>
-          <Link to="/soon/">
+          <Link to="/about/">
             Contact Us
           </Link>
-          <Link to="/soon/">
+          <Link to="/about/">
             About Us
           </Link>
           <Link to="/soon/">

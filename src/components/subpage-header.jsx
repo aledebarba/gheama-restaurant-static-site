@@ -7,7 +7,7 @@ export const SubPageHeader = ( props ) => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-2 brand">
-                    <StaticImage src="../images/brand-white-transparent.png" alt="company brand logo" />
+                    <StaticImage src="../images/brand-dark-transparent.png" alt="company brand logo" />
                 </div>
                 <div className="col-md-4 subpage__header__image">
                     <img src={props.src} alt={props.alt}/>
