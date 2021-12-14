@@ -1,13 +1,14 @@
 import * as React from "react";
 import InstagramFeed  from 'react-ig-feed'
 import { StaticImage } from "gatsby-plugin-image";
+import { configData } from "../data/config";
 
 export const Instagram = () => {return(
     
     <div className="container-fluid justify-content-center my-5 pb-5">
         <div className="row ifeed">
             <InstagramFeed 
-                token="IGQVJVSHB3QmhEb3ZAjeWZAuaktXQW5ZAQ0huNHRaV3NSQ2hFMnJqTUdFQUc0a1d6aXNVTkxqWkNYZATNzOUM5SmJJZAXZACb3ZAQQ1hFNFVKa2g3TUdfYi00eTh3bWRwSDBwV04walI2aUpaVUNMZAF9RbHRQbQZDZD"
+                token={atob(configData.itb)}
                 counter="12"
             /> 
         </div>

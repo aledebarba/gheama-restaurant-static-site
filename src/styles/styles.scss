@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;400;600&display=swap');
+@import url('http://fonts.cdnfonts.com/css/yaldevi-colombo?styles=19567,19569,19571');
 
 :root {
     /* Color styles */
@@ -38,7 +38,7 @@ body {
     width: 100vw;
     max-width: 100vw;
     overflow-x: hidden;
-    font-family: 'Yaldevi','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Yaldevi Colombo ExtraLight','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     button {
         cursor: pointer;
@@ -49,6 +49,13 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
     line-height: 2;
 }
+
+h1, .h1  {
+    font-family: 'Yaldevi Colombo ExtraLight','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: var(--light);
+    font-size: 4.5rem;
+}
+
 
 .header-content {
     width: 100%;
@@ -130,11 +137,15 @@ h1, h2, h3, h4, h5,
 }
 
 .page-footer {
+    padding-top: 7rem;
+
     .footer-menu {
         display: flex;
         flex-direction: column;
         width: 100%;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 1rem 5rem;
+
         @media screen and (min-width: 640px) {
             flex-direction: row;
         }
@@ -149,7 +160,6 @@ h1, h2, h3, h4, h5,
     .footer-details {
         display: grid;
         grid-template-columns: 1fr;
-        place-items: center;
         gap: 8px;
         margin-bottom: 1rem;
         @media screen and (min-width: 540px) {
@@ -161,20 +171,22 @@ h1, h2, h3, h4, h5,
             justify-content: center;
             align-items: center;
             gap: 8px;
-            
+            justify-self: flex-start;
+            margin: 1rem;
         }
 
         .contactform {
             width: 100%;
             border-radius: 999px;
             background-color: white;
-            margin: 1rem 0;
+            margin: 1rem;
             overflow: hidden;
             height: 3.5rem;
             display: flex;
             justify-content: center;
             align-items: center;
             max-width: 30rem;
+            justify-self: flex-end;
 
             input[type='text']{
                 outline: 0;
@@ -276,6 +288,7 @@ nav {
         border-radius: 999px;
         margin-right: 1rem;
         transition: all 200ms linear;
+        backdrop-filter: blur(3px);
     }
 
     .open-close {
@@ -304,3 +317,106 @@ nav {
     transition: all 200ms linear;
 }
 
+.section-contacts {
+    .contact__form form {
+        display: flex;
+        flex-direction: column;     
+        padding-right: 2rem;
+
+        label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+
+        input {
+            margin-bottom: 16px;
+        }
+
+        input[type="text"]{
+            background: transparent;
+            border: 0;
+            outline: 0;
+            border-bottom: 1px solid var(--almost-black);
+            height: 2rem;
+        }
+
+        textarea{
+            outline: 0;
+            border: 0;
+            height: 8rem;
+        }
+    }
+
+    .contact__map {
+        opacity: 0.7;
+        filter: sepia(50%) grayscale(80%);
+
+    }
+
+    .contact__shortcuts {
+        .shortcut {
+            margin-bottom: 2rem;
+            padding-right: 2rem;
+
+            a {
+                text-decoration: none;
+                color: var(--almost-black);
+
+                small {
+                    border-bottom: 1px solid var(--almost-black);
+                    display: block;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    display:flex;
+                    align-items: center;
+                    padding-bottom: 0.5rem;
+                    margin-bottom: 0.5rem;
+                    font-size: 0.8rem;
+                    div {
+                        margin-right: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.subpage {
+    &__header {
+
+        &__image {
+            img {
+                width: 100%;
+                filter: grayscale(100%);
+            }
+        }
+        &__text {
+            margin-top: 30vh;
+            margin-left: 2rem;
+
+            h3, .h3 {
+                line-height: 1.2;
+                padding-right: 40%;
+                font-size: 1.85rem;
+            }
+        }
+
+        .brand {
+            filter: brightness(0);
+            opacity: 0.5;
+            img {
+                width: 60%;
+                margin: 2rem auto 0 auto;
+            }
+        }
+
+
+    } 
+}
+
+.separator {
+    height: 3px;
+    width: 50%;
+    border-top: 1px solid var(--gray);
+    margin: 30vh auto;
+}

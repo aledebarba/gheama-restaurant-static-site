@@ -19,25 +19,22 @@ export const TopNav = () => {
         </div> 
         <div className='navItems'>
           <Link to="/soon/">
-            About Us
+            Home
           </Link>
           <Link to="/soon/">
             Contact Us
           </Link>
           <Link to="/soon/">
+            About Us
+          </Link>
+          <Link to="/soon/">
+            News
+          </Link>
+          <Link to="/soon/">
+            Find Us
+          </Link>
+          <Link to="/soon/">
             Menu
-          </Link>
-          <Link to="/soon/">
-            Gift Card
-          </Link>
-          <Link to="/soon/">
-            Events
-          </Link>
-          <Link to="/soon/">
-            Gallery
-          </Link>
-          <Link to="/soon/">
-            Blog
           </Link>
         </div> 
         <div className="nav-menu-buttons" menustate={ menuIsClosed ? "closed" : "opened" }>

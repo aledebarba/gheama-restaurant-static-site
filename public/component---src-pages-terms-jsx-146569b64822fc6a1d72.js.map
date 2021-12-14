@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-terms-jsx-146569b64822fc6a1d72.js","mappings":"+IAMA,UAJc,WAAO,OACjB","sources":["webpack://gheama-restaurant/./src/pages/terms.jsx"],"sourcesContent":["import React from 'react'\n\nconst Terms = () => {return(\n    <></>\n)}\n\nexport default Terms"],"names":[],"sourceRoot":""}
