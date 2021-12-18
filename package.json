@@ -4,7 +4,7 @@
   "private": true,
   "description": "Gheama Restaurant",
   "keywords": [
-    "gatsby"
+    "gatsby","gheama","restaurant"
   ],
   "scripts": {
     "develop": "gatsby develop",
