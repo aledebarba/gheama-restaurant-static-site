@@ -344,10 +344,39 @@ nav {
             height: 2rem;
         }
 
+        input[type="submit"] {
+            max-width: 15ch;
+        }
+
         textarea{
             outline: 0;
             border: 0;
             height: 8rem;
+        }
+        
+        
+        @keyframes toast {
+            0% { opacity: 1; }
+            25% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+        
+        .email_sending, .email_error, .email_success{
+            font-weight: var(--bold);
+            text-transform: uppercase;
+            padding: 4px;
+            color: white;
+            background-color: var(--almost-black);
+            text-align: center;
+        }
+        
+        .email_success {
+            animation: toast 3s linear forwards;
+            opacity: 0;
+        }
+
+        .email_error { 
+            background-color: red;
         }
     }
 

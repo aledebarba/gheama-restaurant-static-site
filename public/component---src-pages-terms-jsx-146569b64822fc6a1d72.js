@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgheama_restaurant=self.webpackChunkgheama_restaurant||[]).push([[26],{3512:function(e,a,t){t.r(a);var n=t(7294);a.default=function(){return n.createElement(n.Fragment,null)}}}]);
-//# sourceMappingURL=component---src-pages-terms-jsx-146569b64822fc6a1d72.js.map

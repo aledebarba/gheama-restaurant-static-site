@@ -1,1 +1,0 @@
-{"version":3,"file":"component---src-pages-about-jsx-c31b496bd8657d92c719.js","mappings":"gJAMA,UAJc,WAAO,OACjB","sources":["webpack://gheama-restaurant/./src/pages/about.jsx"],"sourcesContent":["import React from 'react'\n\nconst About = () => {return(\n    <></>\n)}\n\nexport default About"],"names":[],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"file":"component---src-pages-soon-jsx-041a242e4487b23add42.js","mappings":"gJAMA,UAJa,WAAO,OAChB","sources":["webpack://gheama-restaurant/./src/pages/soon.jsx"],"sourcesContent":["import React from 'react'\n\nconst Soon = () => {return(\n    <></>\n)}\n\nexport default Soon"],"names":[],"sourceRoot":""}

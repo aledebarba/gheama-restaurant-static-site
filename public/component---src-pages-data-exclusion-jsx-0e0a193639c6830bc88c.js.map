@@ -1,1 +1,0 @@
-{"version":3,"file":"component---src-pages-data-exclusion-jsx-0e0a193639c6830bc88c.js","mappings":"gJAMA,UAJsB,WAAO,OACzB","sources":["webpack://gheama-restaurant/./src/pages/data-exclusion.jsx"],"sourcesContent":["import React from 'react'\n\nconst DataExclusion = () => {return(\n    <></>\n)}\n\nexport default DataExclusion"],"names":[],"sourceRoot":""}
