@@ -33,5 +33,5 @@ jobs:
           server: ${{ secrets.ftpserver }}
           server-dir: ${{ secrets.ftppdir }}
           local-dir: ./public/
-          username: ${{ secrets.ftppuser }}
+          username: ${{ secrets.ftpuser }}
           password: ${{ secrets.ftppass }}
