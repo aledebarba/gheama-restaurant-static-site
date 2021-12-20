@@ -30,8 +30,8 @@ jobs:
         with:
           log-level: verbose
           timeout-minutes: 15
-          server: ftp.alemacedo.com
-          server-dir: gheamaapp.uxdir.com/
+          server: ${{ secrets.ftpserver }}
+          server-dir: ${{ secrets.ftppdir }}
           local-dir: ./public/
-          username: alemacedo
-          password: ${{ secrets.dreamhost_ftp }}
+          username: ${{ secrets.ftppuser }}
+          password: ${{ secrets.ftppass }}
