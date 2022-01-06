@@ -1,5 +1,8 @@
 @import url('https://fonts.cdnfonts.com/css/yaldevi-colombo?styles=19567,19569,19571');
 
+
+$screenLarge: 1440px;
+
 :root {
     /* Color styles */
 --almost-black: #222222;
@@ -117,21 +120,33 @@ h1, .h1  {
     span.icon {
         display: none;
     }
-
     
   & > div {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       width: 100vw;
-      max-width: 1200px;   
+      max-width: $screenLarge;   
       margin: 0 auto;   
       @media screen and (min-width: 480px) { grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+      & > div {
+          overflow: hidden;              
+          position: relative;
+
+          &:after {
+              content: "";
+              padding-bottom: 100%;
+              display: block;
+          }
+
+      }
   }
 
-  img {
+  & img, & video {
+    position: absolute;
     width: 100%;
-    max-width: 300px;
-    max-height: 300px;
+    height: 100%;
+    object-fit: cover;
    }
 
 }
@@ -319,6 +334,7 @@ nav {
 
 .section-contacts {
     margin-bottom: 30vh;
+    max-width: $screenLarge;
     h1 {
         font-size: 3rem;
     }

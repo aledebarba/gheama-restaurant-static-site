@@ -4,7 +4,9 @@
   "private": true,
   "description": "Gheama Restaurant",
   "keywords": [
-    "gatsby","gheama","restaurant"
+    "gatsby",
+    "gheama",
+    "restaurant"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -14,6 +16,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.2",
     "bootstrap": "^5.1.3",
     "emailjs-com": "^3.2.0",
     "gatsby": "^4.3.0",
