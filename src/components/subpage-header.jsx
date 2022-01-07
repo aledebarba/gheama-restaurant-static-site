@@ -1,5 +1,5 @@
-import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
+import logo from "../images/brand-dark-transparent.png"
 
 export const SubPageHeader = ( props ) => {
     return (
@@ -7,7 +7,7 @@ export const SubPageHeader = ( props ) => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-2 brand">
-                    <StaticImage src="../images/brand-dark-transparent.png" alt="company brand logo" />
+                    <img src={logo} alt="company brand logo" />
                 </div>
                 <div className="col-md-4 subpage__header__image">
                     <img src={props.src} alt={props.alt}/>

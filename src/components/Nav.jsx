@@ -1,11 +1,14 @@
 import React, {useState, useRef, useEffect } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
+import menuImgOpen from '../images/HamburgerMenu.png';
+import menuImgClose from '../images/HamburgerMenuClose.png';
 
 export const TopNav = () => {
 
     const [ menuIsClosed, setMenuState ] = useState( true );
     const [ height, setHeight] = useState(0)
+    const [ modalState, setModalState ] = useState(false);
     const menuRef = useRef(null)
   
     useEffect(() => {
@@ -33,15 +36,23 @@ export const TopNav = () => {
           <Link to="/soon/">
             Find Us
           </Link>
-          <Link to="/soon/">
-            Menu
-          </Link>
+          { !modalState && <button onClick={()=>{setModalState(true)}}>Menu</button> }
+          { modalState && <>
+              <a href='Gheama-restaurant-menu.pdf' download>Download Menu</a>
+              <a href='Gheama-restaurant-menu.pdf' download>Download Print Menu</a>
+            </>
+          }
+          
         </div> 
         <div className="nav-menu-buttons" menustate={ menuIsClosed ? "closed" : "opened" }>
             <button className="reserves">Reservations</button>
-            <button className="open-close" onClick={()=>setMenuState(!menuIsClosed)}>
-                { menuIsClosed && <StaticImage src="../images/HamburgerMenu.png" alt="open icon" />}
-                {!menuIsClosed && <StaticImage src="../images/HamburgerMenuClose.png" alt="close icon - select to close menu" />}
+            <button className="open-close" onClick={()=>{
+                setMenuState(!menuIsClosed)
+                setModalState(false)
+              }}
+              >
+                { menuIsClosed && <img src={menuImgOpen} alt="open icon" />}
+                {!menuIsClosed && <img src={menuImgClose} alt="close icon - select to close menu" />}
             </button>
         </div>
       </nav>

@@ -7,13 +7,13 @@ export const Footer = () => {return(
     <div className="container-fluid my-4 page-footer">
         <div className="container-lg justify-content-center">
             <div className="footer-menu">
-                <div className="footer-menu-item"><Link to="/soon/" className="btn">Contact</Link></div>
+                <div className="footer-menu-item"><Link to="#contact" className="btn">Contact</Link></div>
                 <div className="footer-menu-item"><Link to="/soon/" className="btn">Spotted On</Link></div>
                 <div className="footer-menu-item"><Link to="/soon/" className="btn">Locations</Link></div>
                 <div className="footer-menu-item"><Link to="/soon/" className="btn">Career</Link></div>
                 <div className="footer-menu-item"><Link to="/soon/" className="btn">Our Services</Link></div>
                 <div className="footer-menu-item"><Link to="/soon/" className="btn">Events</Link></div>
-                <div className="footer-menu-item"><Link to="/soon/" className="btn">Policies</Link></div>
+                <div className="footer-menu-item"><a href="https://www.iubenda.com/terms-and-conditions/22949186" className="btn" rel="noreferrer" target="_blank">Policies</a></div>
             </div>
             <div className="footer-details">
                 

@@ -22,7 +22,7 @@ export const Contact = () => {
       };
 
     return(
-    <div className="container-fluid section-contacts">
+    <div className="container-fluid section-contacts" id='contact'>
         <div className="row justify-content-center mx-4">
             <div className="col-sm-12 col-md-5">
                 <div className="contact__form">
