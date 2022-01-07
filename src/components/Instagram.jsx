@@ -8,7 +8,7 @@ export const Instagram = () => {return(
     <div className="container-fluid justify-content-center my-5 pb-5">
         <div className="row ifeed">
             <InstagramFeed 
-                token={atob(configData.itb)}
+                token={configData.itb}
                 counter="12"
             /> 
         </div>

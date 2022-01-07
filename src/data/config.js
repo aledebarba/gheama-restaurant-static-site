@@ -1,6 +1,6 @@
 export const configData = {
     videosource: "https://uxdir.com/files/videos/gheama-intro-video.mp4",
-    itb: "SUdRVkpXUVUxUVdVbFFlRzVuVFZCQlpBVVYzYVZWb1ZreHpNMjVvV0hOV1ZIcGhVMEpCZUVjeVl5MXZaQUhvM1dYVlBTbWQyTFRJelgyNWZTek5VV0dZNFdsSnpZamN5ZEZCMU1IZFNVbVZWZVZOVE9XOXVjMUUyVDFoMVNYcENRMGhvY2podE9VRm5iMnRsWkFsTnlYMFJDVHdaRFpE",
+    itb: "IGQVJWQU1QWUlQeG5nTVBBZAUV3aVVoVkxzM25oWHNWVHphU0JBeEcyYy1vZAHo3WXVPSmd2LTIzX25fSzNUWGY4WlJzYjcydFB1MHdSUmVVeVNTOW9uc1E2T1h1SXpCQ0hocjhtOUFnb2tlZAlNyX0RCTwZDZD",
     address: "20 Camden Row, Portobello, Dublin, D08 H294",    
     phone: "+67 12345679",
     email: "info@gheama.com",
