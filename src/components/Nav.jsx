@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import menuImgOpen from '../images/HamburgerMenu.png';
 import menuImgClose from '../images/HamburgerMenuClose.png';
+import { configData } from "../data/config";
 
 export const TopNav = () => {
 
@@ -38,8 +39,8 @@ export const TopNav = () => {
           </Link>
           { !modalState && <button onClick={()=>{setModalState(true)}}>Menu</button> }
           { modalState && <>
-              <a href='Gheama-restaurant-menu.pdf' download>Download Menu</a>
-              <a href='Gheama-restaurant-menu.pdf' download>Download Print Menu</a>
+              <a href={configData.menuDownloadURL} download>Download Menu</a>
+              <a href={configData.menuPrintDownloadURL} download>Download Print Menu</a>
             </>
           }
           

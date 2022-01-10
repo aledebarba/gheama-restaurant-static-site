@@ -13,7 +13,7 @@ export const Footer = () => {return(
                 <div className="footer-menu-item"><Link to="/soon/" className="btn">Career</Link></div>
                 <div className="footer-menu-item"><Link to="/soon/" className="btn">Our Services</Link></div>
                 <div className="footer-menu-item"><Link to="/soon/" className="btn">Events</Link></div>
-                <div className="footer-menu-item"><a href="https://www.iubenda.com/terms-and-conditions/22949186" className="btn" rel="noreferrer" target="_blank">Policies</a></div>
+                <div className="footer-menu-item"><a href={configData.policiesURL} className="btn" rel="noreferrer" target="_blank">Policies</a></div>
             </div>
             <div className="footer-details">
                 
@@ -33,12 +33,8 @@ export const Footer = () => {return(
             </div>
             <div className="row justify-content-center">
                 <div className="col-3">
-
                         <button className="btn btn-dark mx-1">ENGLISH</button>
-
-
                         <button className="btn btn-light mx-1">ITALIAN</button>
-
                 </div>
             </div>
         </div>
