@@ -3,8 +3,12 @@ import InstagramFeed  from 'react-ig-feed'
 import { StaticImage } from "gatsby-plugin-image";
 import { configData } from "../data/config";
 
-export const Instagram = () => {return(
-    
+export const Instagram = () => {
+    // useEffect(()=>{
+    //     const div = document.closest("div").document.querySelector("video._vzTHL");
+    //     div.style.display = "none";
+    // },[])
+    return(
     <div className="container-fluid justify-content-center my-5 pb-5">
         <div className="row ifeed">
             <InstagramFeed 

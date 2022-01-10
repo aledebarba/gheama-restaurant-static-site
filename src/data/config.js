@@ -19,7 +19,7 @@ export const configData = {
     menuDownloadURL: "Gheama-restaurant-menu.pdf",
     menuPrintDownloadURL: "Gheama-restaurant-menu-print.pdf",
     privacyNote:"https://gheama.com",
-    policiesURL:"https://www.iubenda.com/terms-and-conditions/22949186",
+    policiesURL:"https://www.iubenda.com/privacy-policy/22949186/legal",
     contactForm: {
         to: "info@gheama.com",
         subject: "Contact from website form ",
