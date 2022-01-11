@@ -25,7 +25,7 @@ export const TopNav = () => {
           <Link to="/">
             Home
           </Link>
-          <Link to="/about/">
+          <Link to="#contact" onClick={()=>{ setMenuState("closed") } }>
             Contact Us
           </Link>
           <Link to="/about/">
