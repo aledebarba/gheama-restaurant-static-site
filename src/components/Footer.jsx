@@ -17,11 +17,11 @@ export const Footer = () => {return(
             </div>
             <div className="footer-details">
                 
-                        <form className='contactform'>
+                        {/* <form className='contactform d-none'>
                             <input type="text" name="yourinfo" placeholder="Type Your Email" />
                             <input type="submit" value=">" />
                         </form>
-                    
+                     */}
                     <div className="social-menu">
                         <div className="social-item"><a href={configData.social.spotify} title='follow us on spotify' rel="noreferrer" target="_blank"><StaticImage src='../images/social/spotify.png' alt='select this item to access spotify'/></a></div>
                         <div className="spcial-item"><a href={configData.social.soudcloud} title='follow us on soundcloud' rel="noreferrer" target="_blank"><StaticImage src='../images/social/soundcloud.png' alt='select this item to access soundcloud'/></a></div>
@@ -31,7 +31,7 @@ export const Footer = () => {return(
                     </div>
                 
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center d-none">
                 <div className="col-3">
                         <button className="btn btn-dark mx-1">ENGLISH</button>
                         <button className="btn btn-light mx-1">ITALIAN</button>
