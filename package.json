@@ -14,7 +14,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "dev": "gatsby clean & gatsby develop"
+    "dev": "gatsby clean & gatsby develop",
+    "make" : "gatsby clean & gatsby build"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.2",
