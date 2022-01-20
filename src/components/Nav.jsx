@@ -46,7 +46,7 @@ export const TopNav = () => {
           
         </div> 
         <div className="nav-menu-buttons" menustate={ menuIsClosed ? "closed" : "opened" }>
-            <button className="reserves">Reservations</button>
+            {/* <button className="reserves">Reservations</button> */}
             <button className="open-close" onClick={()=>{
                 setMenuState(!menuIsClosed)
                 setModalState(false)

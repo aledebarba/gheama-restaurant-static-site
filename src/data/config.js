@@ -32,5 +32,6 @@ export const configData = {
         TEMPLATE_ID: "template_heaayaw",
         TOKEN: "c82e86ae4266bff33a5c15165d5bfd85"
     },
-    googleMapsEmbedCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d832.1514904704488!2d9.208088678630906!3d45.44939775300696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c42387343d49%3A0xca0ea3d932359eef!2sVia%20S.%20Gerolamo%20Emiliani%2C%202%2C%2020135%20Milano%20MI%2C%20It%C3%A1lia!5e0!3m2!1spt-BR!2snl!4v1641807873353!5m2!1spt-BR!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`
+    googleMapsEmbedCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d832.1514904704488!2d9.208088678630906!3d45.44939775300696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c42387343d49%3A0xca0ea3d932359eef!2sVia%20S.%20Gerolamo%20Emiliani%2C%202%2C%2020135%20Milano%20MI%2C%20It%C3%A1lia!5e0!3m2!1spt-BR!2snl!4v1641807873353!5m2!1spt-BR!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`,
+    googleMapsMapUrl: `https://goo.gl/maps/gDrAnjFvMGYuVkyE6`
 }

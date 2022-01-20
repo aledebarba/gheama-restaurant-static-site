@@ -26,7 +26,7 @@ export const Contact = () => {
         <div className="row justify-content-center mx-4">
             <div className="col-sm-12 col-md-5">
                 <div className="contact__form">
-                    <h1>Conctact Us</h1>
+                    <h1>Contact Us</h1>
                     <form ref={contactForm} onSubmit={sendEmail}>
                         <label htmlFor="customer_name">Name</label>
                         <input type="text" id='customer_name' name="customer_name" required placeholder="Your name" />
@@ -55,7 +55,7 @@ export const Contact = () => {
             </div>
             <div className="col-sm-12 col-md-2 contact__shortcuts mt-sm-5 mt-md-0">
                 <div className='shortcut'>
-                    <a href='https://goo.gl/maps/Xbg6PeJG7VcvMbH3A' target="_blank" rel="noreferrer" >
+                    <a href={configData.googleMapsMapUrl} target="_blank" rel="noreferrer" >
                         <small><StaticImage src='../images/mini-icon-map.png' alt='a very small map pin icon'/>Address</small>
                         <p>{configData.address}</p>
                     </a>

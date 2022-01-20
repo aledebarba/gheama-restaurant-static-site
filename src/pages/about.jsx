@@ -11,6 +11,7 @@ const About = () => {return(
     <Layout>
         <TopNav/>
         <SubPageHeader src='/redsofa_grayscale.png' alt='woman sitting on red sofa'>
+            {/* if you want to change the html or text of this section, look into ./data/translations.js */}
             <div dangerouslySetInnerHTML={{__html: i18n.aboutUs.en }} />
         </SubPageHeader>
         <Contact/>

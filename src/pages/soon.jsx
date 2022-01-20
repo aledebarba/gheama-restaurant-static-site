@@ -11,8 +11,8 @@ const Soon = () => {return(
     <Layout>
         <TopNav/>
         <SubPageHeader src='/redsofa_grayscale.png' alt='woman sitting on red sofa'>
-            <h1>This page is coming soon</h1>
-            <h3>Please note that this site is still under construction and all the content are not available yet.</h3>
+            {/* To change the texts of this section look fot it on ./data/translations.js */}
+            <div dangerouslySetInnerHTML={{__html: i18n.commingSoon.en}} />
             <div dangerouslySetInnerHTML={{__html: i18n.ourHistory.en }} />
         </SubPageHeader>
         <Contact/>

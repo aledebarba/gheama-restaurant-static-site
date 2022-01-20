@@ -24,5 +24,10 @@ export const i18n = {
         
         Through her time spent in Milan, and her life and love of the meditteranean Irina saw not only an opportunity to introduce Georgian cuisine to the work but also to evoke the imagination and create a place of warmth and wonder, her expression of the beauty in life. Along with Riccardo De Vicari, and Tony Tudino, GHEAMA became their interpretation of an idealistic space, with every detail having a purpose, a connection to the past, present and future of Georgia and to the concept of goodness in balance.`,
         it: ``,
+    },
+    commingSoon: {
+        en:`<h1>This page is coming soon</h1>
+        <h3>Please note that this site is still under construction and all of the content is not available yet.</h3>`,
+        it:``
     }
     }
